@@ -21,12 +21,9 @@ def assign_rooms(speakers)
 end   
 
 def printer(attendees)
-  d = false
   batch_badge_creator(attendees).each do |attendee|
-    if d == false
       puts attendee
     end
-    d = true
   end
   # puts assign_rooms(attendees)
 end  
