@@ -21,9 +21,10 @@ def assign_rooms(speakers)
 end   
 
 def printer(attendees)
-  batch_badge_creator(attendees).each do |attendee|
-    assign_rooms(attendees).each do |attendee|
-      
-    end
+  i = 0
+  while i < attendees.length
+    puts batch_badge_creator(attendees)[i]
+    puts assign_rooms(attendees)[i]
+    i += 1
   end
 end  
