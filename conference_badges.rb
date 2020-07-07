@@ -20,7 +20,7 @@ def assign_rooms(speakers)
     return new_arr
 end   
 
-def printer(batch_badge_creator(array), )
-  puts 
-  puts assign_rooms(speaker)
+def printer(method1, method2)
+  puts method1
+  puts method2
 end  
