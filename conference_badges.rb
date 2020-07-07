@@ -17,7 +17,7 @@ def assign_rooms(speakers)
     variable = "Hello, #{speaker}! You'll be assigned to room #{index}!"
     new_arr << variable
     end
-    return arr
+    return new_arr
 end   
 
 def printer
