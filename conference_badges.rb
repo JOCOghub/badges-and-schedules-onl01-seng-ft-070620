@@ -3,15 +3,17 @@ def badge_maker(name)
 end  
 
 def batch_badge_creator(array)
-  array.each do |name|
+ arr = array.each do |name|
     "Hello, my name is #{name}."
   end
+  return arr
 end  
 
 def assign_rooms(speakers)
-  speakers.each_with_index do |speaker, index|
+  arr = speakers.each_with_index do |speaker, index|
      "Hello, #{speaker}! You'll be assigned to room #{index}!"
     end
+    return arr
 end   
 
 def printer
