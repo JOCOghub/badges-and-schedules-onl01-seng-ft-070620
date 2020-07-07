@@ -26,4 +26,5 @@ def printer(attendees)
       puts attendee
     end
   end
+  puts attendee
 end  
