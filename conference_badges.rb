@@ -23,8 +23,8 @@ end
 def printer(attendees)
   d = false
   batch_badge_creator(attendees).each do |attendee|
+    if d == false
+      puts attendee
     d = true
-    if 
-    puts attendee
   puts assign_rooms(attendees)
 end  
